@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+--color1: #B3ECF2;
+--color2: #F277A4;
+--color3: #732240;
+--color4: #D9436B;
+--color5: #8C0327;
+}
+
+body{
+    border: 10px solid var(--color2);
+    background-color: var(--color1);
+    height: auto;
+}
+
+#art1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#h11{
+    margin-top: 90px;
+    font-size: 30px;
+}
+
+#pic1{
+    margin-top: 30px;
+    ;
+}
+
+#img1{
+    width: 500px;
+    border: 10px solid var(--color4);
+    border-radius: 10px;
+   
+}
+
+#img1:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#img1:active{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+
+#art2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#h12{
+    margin-top: 90px;
+    font-size: 30px;
+}
+
+#pic2{
+    margin-top: 30px;
+    
+}
+
+#img2{
+    width: 500px;
+    height: 500px;
+    border: 10px solid var(--color4);
+    border-radius: 10px;
+   
+}
+
+#img2:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#img2:active{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+
+#art3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#h13{
+    margin-top: 90px;
+    font-size: 30px;
+}
+
+#pic3{
+    margin-top: 30px;
+    ;
+}
+
+#img3{
+    width: 450px;
+    heigth:00px;
+    border: 10px solid var(--color4);
+    border-radius: 10px;
+   
+}
+
+#img3:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#img3:active{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}

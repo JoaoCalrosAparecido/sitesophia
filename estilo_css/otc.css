@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+:root{
+--color1: #B3ECF2;
+--color2: #F277A4;
+--color3: #732240;
+--color4: #D9436B;
+--color5: #8C0327;
+}
+
+body{
+    border: 10px solid var(--color2);
+    background-color: var(--color1);
+    height: 609px;
+}
+
+.art{
+    background-color: white;
+    width: 800px;
+    height: 550px;
+    margin: auto;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    background-color: var(--color4);
+    color: rgba(255, 255, 255, 0.74);
+    text-indent: 20px;
+}
+
+.voltar{
+    width: 120px;
+    position: fixed;
+    border: 5px solid var(--color5);
+}
+
+.voltar:hover{
+    border: 10px solid var(--color5);
+}
+
+.voltar:active{
+    color: var(--color1);
+     border: 10px solid #39c9da;
+}
+
+p{
+    margin: 10px;
+    text-indent: 12px;
+    font-size: 16px;
+}
